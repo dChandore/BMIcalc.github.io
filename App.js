@@ -10,7 +10,6 @@ function App() {
   const [bmi, setBmi]=useState('')
   const [message, setMessage]=useState('')
 
-  let imgSrc = '';
 
   let calcBmi= (event) =>
   {
@@ -65,7 +64,7 @@ let reload=() =>{
 
         </div>
         <div className='img-container'></div>
-        <img src = {imgSrc} alt=''></img>
+       
       </div>
     </div>
   );
